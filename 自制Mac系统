@@ -1,0 +1,15 @@
+本文参考 http://bbs.feng.com/forum.php?mod=viewthread&tid=8129440
+首先开机重启按住option键选择磁盘工具将所有磁盘进行删除整合（http://bbs.feng.com/forum.php?mod=viewthread&tid=9573005）
+下载 OS X Mavericks 10.9.4 13E28 安装U盘镜像
+地址：http://pan.baidu.com/s/1i3gMuLR 密码：zuu9
+下载 TransMac 11.4
+在windows下以管理员身份打开，选择Restore with Disk Image
+找到相应下载的macOS.dmg文件，对U盘进行刻录即可
+# 安装有可能提示时间不正确的报错
+解决方法：安装U盘引导启动到安装界面，点上面的菜单栏的实用工具-终端
+输入代码： date 122014102015.30
+其中，12是月份，20是日期，14是小时，10是分钟，2015是年份，30是秒。
+输入后回车。
+如果返回的是 Sun Dec 20 14:10:30 PST 2015 说明设置正确，否则要重新设置。
+修改系统日期、时间后退出终端，继续安装OS X
+# 整个安装过程会两次重启电脑，之后就完成整个步骤的安装
